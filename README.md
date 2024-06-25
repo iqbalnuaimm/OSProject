@@ -113,7 +113,19 @@ codespace:x:1000:1000::/home/codespace:/bin/bash
 sshd:x:105:65534::/run/sshd:/usr/sbin/nologin
 ```
 
-3. Run the command **df** . ***(1 mark)*** __Fill answer here__.
+3. Run the command **df** . ***(1 mark)*** 
+
+```bash
+@iqbalnuaimm ➜ /workspaces/OSProject (main) $ df
+Filesystem     1K-blocks     Used Available Use% Mounted on
+overlay         32847680 10381140  20772440  34% /
+tmpfs              65536        0     65536   0% /dev
+shm                65536        8     65528   1% /dev/shm
+/dev/root       30298176 24160984   6120808  80% /vscode
+/dev/sda1       46127956      100  43752280   1% /tmp
+/dev/loop5      32847680 10381140  20772440  34% /workspaces
+```
+
 4. Run the command **du** . ***(1 mark)*** __Fill answer here__.
 5. Run the command **ls** . ***(1 mark)*** __Fill answer here__.
 6. Run the command **ls -asl** . ***(1 mark)*** __Fill answer here__.
